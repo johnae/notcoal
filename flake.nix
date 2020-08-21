@@ -48,7 +48,7 @@
         }
       ) // {
       overlay = final: prev: {
-        notcoal = prev.rustPlatform.buildRustPackage (package inputs.nixpkgs);
+        notcoal = prev.rustPlatform.buildRustPackage (package prev);
       };
 
     };
